@@ -1,0 +1,133 @@
+body {
+  background-image: url(img/wooden.jpg);
+  margin: 0;
+  padding: 0;
+}
+
+.main__container {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+/* Logo */
+
+.main__logo-container {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main__logo {
+  margin-left: 204px;
+  margin-top: 20px;
+}
+
+/* Header section starts here! */
+
+.header {
+  background: #000000;
+  border-radius: 10px;
+  color: #FFF;
+  margin: 0 auto;
+  width: 808px;
+}
+
+.header__welcome {
+  color: #FFF;
+  font-family: helvetica;
+  line-height: 40px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Menu section starts here! */
+
+.menu__section {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 1024px;
+  justify-content: center;
+}
+
+.menu__content {
+  background-color: #d4aa85;
+  border: 1px solid #000000;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.menu__header {
+  font-family: helvetica;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.menu__item-container { 
+  line-height: 20px;
+}
+ 
+.menu__item-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu__item-food {
+  border-bottom: 1px solid #000000;
+  bottom: 20px;
+  font-weight: 700;
+  position: relative;
+  text-align: center;
+}
+
+.menu__item-price {
+  border-bottom: 1px solid #000000;
+  bottom: 20px;
+  flex-grow: 1;
+  font-weight: 700;
+  margin-right: 10px;
+  position: relative;
+  text-align: right;
+}
+
+.menu__image-container {
+  text-align: center;
+}
+
+.menu__image {
+  height: 140px;
+  width: 300px;
+}
+
+/* Footer starts here! */
+
+.footer {
+  background: #000000;
+  border-radius: 10px;
+  color: #FFF;
+  margin: 0 auto;
+  width: 808px;
+}
+
+.footer__info {
+  font-family: helvetica;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer__info-phone {
+  font-family: helvetica;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.footer__info-facebook {
+  margin-bottom: 30px;
+}
+
+.footer__info-link {
+  color: #FFF;
+  text-decoration: none;
+}
