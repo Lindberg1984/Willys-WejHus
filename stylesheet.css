@@ -63,7 +63,7 @@ body {
   text-align: center;
 }
 
-.menu__item-container { 
+.menu__item-content { 
   line-height: 20px;
 }
  
@@ -102,11 +102,17 @@ body {
 
 /* Footer starts here! */
 
+.footer__content {
+  display: flex;
+  flex-direction: row;
+}
+
 .footer {
   background: #000000;
   border-radius: 10px;
   color: #FFF;
-  margin: 0 auto;
+  flex-grow: 1;
+  margin: 0 300px 0 430px;
   width: 808px;
 }
 
@@ -130,4 +136,17 @@ body {
 .footer__info-link {
   color: #FFF;
   text-decoration: none;
+}
+
+.footer__control {
+  height: 40px;
+  margin: 0 auto;
+  width: 180px;
+}
+
+/* Sticker settings starts here! */
+
+.food__control-sticker {
+  height: 50px;
+  width: 130px;
 }
