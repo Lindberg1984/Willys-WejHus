@@ -11,7 +11,7 @@ body {
 
 /* Logo */
 
-.main__logo-container {
+.main__logo-content {
   display: flex;
   margin: 0 auto;
   text-align: center;
@@ -42,12 +42,10 @@ body {
 
 /* Menu section starts here! */
 
-.menu__section {
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
-  width: 1024px;
-  justify-content: center;
+.menu__header {
+  font-family: helvetica;
+  text-decoration: underline;
+  text-align: center;
 }
 
 .menu__content {
@@ -57,10 +55,12 @@ body {
   border-radius: 10px;
 }
 
-.menu__header {
-  font-family: helvetica;
-  text-decoration: underline;
-  text-align: center;
+.menu__section {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 1024px;
+  justify-content: center;
 }
 
 .menu__item-content { 
@@ -102,12 +102,12 @@ body {
 
 /* Footer starts here! */
 
-.footer__content {
+.footer {
   display: flex;
   flex-direction: row;
 }
 
-.footer {
+.footer__content {
   background: #000000;
   border-radius: 10px;
   color: #FFF;
