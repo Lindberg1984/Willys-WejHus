@@ -63,17 +63,17 @@ body {
   justify-content: center;
 }
 
-.menu__item-content { 
+.menu__list { 
   line-height: 20px;
 }
  
-.menu__item-wrapper {
+.menu__list-wrapper {
   align-items: center;
   display: flex;
   flex-direction: row;
 }
 
-.menu__item-food {
+.menu__list-food {
   border-bottom: 1px solid #000000;
   bottom: 20px;
   font-weight: 700;
@@ -81,7 +81,7 @@ body {
   text-align: center;
 }
 
-.menu__item-price {
+.menu__list-price {
   border-bottom: 1px solid #000000;
   bottom: 20px;
   flex-grow: 1;
